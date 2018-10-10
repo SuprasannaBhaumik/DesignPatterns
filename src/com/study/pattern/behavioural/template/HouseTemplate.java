@@ -16,10 +16,9 @@ public abstract class HouseTemplate {
 
 	public abstract void buildFoundation();
 	public abstract void buildPillars();
-	
-	//default implementation
 	public abstract void buildWalls();
 	
+	//default implementation
 	private void buildWindows() {
 		System.out.println("Windows are of make Saint Gobain!!!");
 	};
